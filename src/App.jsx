@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'; 
 import { Link } from 'react-scroll';
+import Services from './components/Services';
 
 const App = () => {
   return (
@@ -14,8 +15,12 @@ const App = () => {
           <Home/>
         </div>
 
-        <div id='about'>
+        <div id="about">
           <About />
+        </div>
+
+        <div>
+          <Services />
         </div>
       </main>
     </>

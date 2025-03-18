@@ -4,7 +4,7 @@ import Button from "../layouts/Button";
 
 const Home = () => {
   return (
-    <div className="min-h-screen flex flex-col lg:flex-row justify-center items-center lg:px-32 px-5 text-gray-900 bg-[#FFF5E1] pb-20 overflow-auto">
+    <div className="h-auto flex flex-col lg:flex-row justify-center items-center lg:px-32 px-5 text-gray-900 bg-[#FFF5E1] pb-20 overflow-auto">
       
       {/* Left Section: Text Content */}
       <div className="w-full lg:w-1/2 space-y-5 text-center lg:text-left">
